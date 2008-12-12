@@ -3,7 +3,7 @@ use Moose;
 use Fir::Major;
 use Fir::Minor;
 use Tree::DAG_Node;
-our $VERSION = '0.32';
+our $VERSION = '0.33';
 
 has 'root' => (
     is      => 'ro',
@@ -185,6 +185,8 @@ L<Fir::Major>, L<Fir::Minor>
 Leon Brocard E<lt>F<acme@astray.com>E<gt>
 
 =head1 COPYRIGHT
+
+=head1 LICENSE
 
 Copyright (C) 2008, Leon Brocard
 
